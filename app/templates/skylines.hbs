@@ -1,0 +1,25 @@
+<h1>SkyLines Import</h1>
+
+<form {{on "submit" (perform this.onSubmitTask)}}>
+  <label style="display: block">
+    User ID:
+    <input type="text" name="userId" pattern="\d+" disabled={{this.importTask.isRunning}} autocomplete="off" {{on "input" (perform this.onInputTask)}} />
+  </label>
+  <label style="display: block">
+    First Name:
+    <input type="text" disabled value={{this.getUserDetailsTask.last.value.firstName}} />
+  </label>
+  <label style="display: block">
+    Last Name:
+    <input type="text" disabled value={{this.getUserDetailsTask.last.value.lastName}} />
+  </label>
+  <label style="display: block">
+    Club:
+    <input type="text" disabled value={{this.getUserDetailsTask.last.value.club.name}} />
+  </label>
+
+  <button type="submit" disabled={{this.submitDisabled}}>Import Flights</button>
+  {{#if this.importTask.isRunning}}
+    Loading...
+  {{/if}}
+</form>
