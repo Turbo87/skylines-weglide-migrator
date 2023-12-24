@@ -65,6 +65,9 @@ devDependencies:
   ember-cli-terser:
     specifier: ^4.0.2
     version: 4.0.2
+  ember-concurrency:
+    specifier: ^3.1.1
+    version: 3.1.1(@babel/core@7.23.6)(ember-source@5.5.0)
   ember-data:
     specifier: ~5.3.0
     version: 5.3.0(@babel/core@7.23.6)(@ember/string@3.1.1)(@glimmer/tracking@1.1.2)(ember-source@5.5.0)
@@ -5396,6 +5399,25 @@ packages:
       find-up: 5.0.0
       fs-extra: 9.1.0
       semver: 5.7.2
+    transitivePeerDependencies:
+      - '@babel/core'
+      - supports-color
+    dev: true
+
+  /ember-concurrency@3.1.1(@babel/core@7.23.6)(ember-source@5.5.0):
+    resolution: {integrity: sha512-doXFYYfy1C7jez+jDDlfahTp03QdjXeSY/W3Zbnx/q3UNJ9g10Shf2d7M/HvWo/TC22eU+6dPLIpqd/6q4pR+Q==}
+    engines: {node: 16.* || >= 18}
+    peerDependencies:
+      ember-source: ^3.28.0 || ^4.0.0 || >=5.0.0
+    dependencies:
+      '@babel/helper-plugin-utils': 7.22.5
+      '@babel/types': 7.23.6
+      '@glimmer/tracking': 1.1.2
+      ember-cli-babel: 7.26.11
+      ember-cli-babel-plugin-helpers: 1.1.1
+      ember-cli-htmlbars: 6.3.0
+      ember-compatibility-helpers: 1.2.7(@babel/core@7.23.6)
+      ember-source: 5.5.0(@babel/core@7.23.6)(@glimmer/component@1.1.2)(rsvp@4.8.5)(webpack@5.89.0)
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
