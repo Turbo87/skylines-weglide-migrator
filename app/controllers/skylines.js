@@ -1,7 +1,6 @@
 import Controller from '@ember/controller';
 import { task, dropTask, rawTimeout, restartableTask } from 'ember-concurrency';
-import { getJson } from '../utils/http';
-import { loadAllSkylinesFlights } from '../utils/skylines';
+import { loadAllSkylinesFlights, loadUserDetails } from '../utils/skylines';
 
 const DEBOUNCE_MS = 100;
 
@@ -28,8 +27,7 @@ export default class SkylinesController extends Controller {
       throw new Error('Invalid user ID');
     }
 
-    let { json } = await getJson(`https://skylines.aero/api/users/${userId}`);
-    return json;
+    return await loadUserDetails(userId);
   });
 
   onSubmitTask = task(async (event) => {

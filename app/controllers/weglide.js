@@ -1,7 +1,6 @@
 import Controller from '@ember/controller';
 import { task, dropTask, rawTimeout, restartableTask } from 'ember-concurrency';
-import { getJson } from '../utils/http';
-import { loadAllWeglideFlights } from '../utils/weglide';
+import { loadAllWeglideFlights, loadUserDetails } from '../utils/weglide';
 
 const DEBOUNCE_MS = 100;
 
@@ -28,10 +27,7 @@ export default class SkylinesController extends Controller {
       throw new Error('Invalid user ID');
     }
 
-    let { json } = await getJson(
-      `https://api.devs.glidercheck.com/v1/user/${userId}`,
-    );
-    return json;
+    return await loadUserDetails(userId);
   });
 
   onSubmitTask = task(async (event) => {

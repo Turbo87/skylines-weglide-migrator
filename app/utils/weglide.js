@@ -5,6 +5,13 @@ const PAGE_SIZE = 100;
 // We should not iterate indefinitely, so we set a maximum number of pages.
 const MAX_SKIP = 50000;
 
+export async function loadUserDetails(userId) {
+  let { json } = await getJson(
+    `https://api.devs.glidercheck.com/v1/user/${userId}`,
+  );
+  return json;
+}
+
 export async function loadAllWeglideFlights(userId) {
   let flights = [];
 

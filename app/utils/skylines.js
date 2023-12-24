@@ -5,6 +5,11 @@ const PAGE_SIZE = 50;
 // We should not iterate indefinitely, so we set a maximum number of pages.
 const MAX_PAGES = 500;
 
+export async function loadUserDetails(userId) {
+  let { json } = await getJson(`https://skylines.aero/api/users/${userId}`);
+  return json;
+}
+
 export async function loadAllSkylinesFlights(userId) {
   let flights = [];
 
