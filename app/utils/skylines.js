@@ -6,15 +6,14 @@ const PAGE_SIZE = 50;
 const MAX_PAGES = 500;
 
 export async function loadUserDetails(userId) {
-  let { json } = await getJson(`https://skylines.aero/api/users/${userId}`);
-  return json;
+  return await getJson(`https://skylines.aero/api/users/${userId}`);
 }
 
 export async function loadAllSkylinesFlights(userId) {
   let flights = [];
 
   for (let page = 1; page <= MAX_PAGES; page += 1) {
-    let { json } = await getJson(
+    let json = await getJson(
       `https://skylines.aero/api/flights/pilot/${userId}?page=${page}`,
     );
 
