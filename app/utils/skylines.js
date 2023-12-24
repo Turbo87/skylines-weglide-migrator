@@ -1,4 +1,4 @@
-import { ensureResponseOk } from './http';
+import { getJson } from './http';
 
 // Skylines has a fixed page size of 50 flights per page.
 const PAGE_SIZE = 50;
@@ -9,12 +9,10 @@ export async function loadAllSkylinesFlights(userId) {
   let flights = [];
 
   for (let page = 1; page <= MAX_PAGES; page += 1) {
-    let response = await fetch(
+    let { json } = await getJson(
       `https://skylines.aero/api/flights/pilot/${userId}?page=${page}`,
     );
-    ensureResponseOk(response);
 
-    let json = await response.json();
     flights.push(...json.flights);
 
     if (json.flights.length < PAGE_SIZE) {
