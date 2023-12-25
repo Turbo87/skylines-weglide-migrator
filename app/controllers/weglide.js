@@ -9,6 +9,13 @@ const LS_KEY = 'weglide';
 export default class SkylinesController extends Controller {
   @tracked storage = JSON.parse(localStorage.getItem(LS_KEY));
 
+  constructor() {
+    super(...arguments);
+    if (this.storage) {
+      this.getUserDetailsTask.perform(this.storage.userId).catch(() => {});
+    }
+  }
+
   get submitDisabled() {
     return (
       !this.getUserDetailsTask.last?.isSuccessful || this.importTask.isRunning
