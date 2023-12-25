@@ -1,10 +1,14 @@
 import Controller from '@ember/controller';
 import { task, dropTask, rawTimeout, restartableTask } from 'ember-concurrency';
 import { loadAllWeglideFlights, loadUserDetails } from '../utils/weglide';
+import { tracked } from '@glimmer/tracking';
 
 const DEBOUNCE_MS = 100;
+const LS_KEY = 'weglide';
 
 export default class SkylinesController extends Controller {
+  @tracked storage = JSON.parse(localStorage.getItem(LS_KEY));
+
   get submitDisabled() {
     return (
       !this.getUserDetailsTask.last?.isSuccessful || this.importTask.isRunning
@@ -36,9 +40,14 @@ export default class SkylinesController extends Controller {
   });
 
   importTask = dropTask(async () => {
+    this.storage = null;
+    localStorage.removeItem(LS_KEY);
+
     let userId = this.getUserDetailsTask.last.value.id;
     let flights = await loadAllWeglideFlights(userId);
-    console.log(flights);
+
+    this.storage = { userId, flights };
+    localStorage.setItem(LS_KEY, JSON.stringify(this.storage));
   });
 }
 
