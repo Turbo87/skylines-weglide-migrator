@@ -1,0 +1,35 @@
+<h1>Migration</h1>
+
+<ol>
+{{#each this.storage.flights as |flight|}}
+  <li class="{{if flight.weglideFlight "on-weglide"}}">
+    {{flight.scoreDate}}
+
+    – {{or flight.pilot.name flight.pilotName}}
+    {{#if flight.copilot}}
+      & {{flight.copilot.name}}
+    {{else if flight.copilotName}}
+      & {{flight.copilotName}}
+    {{/if}}
+
+    – {{flight.takeoffAirport.name}}
+    {{#if (not-eq flight.takeoffAirport.name flight.landingAirport.name)}}
+      → {{or flight.landingAirport.name "Outlanding"}}
+    {{/if}}
+
+    – {{flight.model.name}}
+    {{#if flight.competitionId}}
+      ({{flight.competitionId}})
+    {{else if flight.registration}}
+      ({{flight.registration}})
+    {{/if}}
+
+    – {{kilometers flight.distance}}
+
+    – <a href="https://skylines.aero/flights/{{flight.id}}">S</a>
+    {{#if flight.weglideFlight}}
+      – <a href="https://devs.glidercheck.com/flight/{{flight.weglideFlight.id}}">W</a>
+    {{/if}}
+  </li>
+{{/each}}
+</ol>
