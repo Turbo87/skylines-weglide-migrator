@@ -6,7 +6,7 @@ const PAGE_SIZE = 100;
 const MAX_SKIP = 50000;
 
 export async function loadUserDetails(userId) {
-  return await getJson(`https://api.devs.glidercheck.com/v1/user/${userId}`);
+  return await getJson(`https://api.weglide.org/v1/user/${userId}`);
 }
 
 export async function loadAllWeglideFlights(userId) {
@@ -14,7 +14,7 @@ export async function loadAllWeglideFlights(userId) {
 
   for (let skip = 0; skip <= MAX_SKIP; skip += PAGE_SIZE) {
     let json = await getJson(
-      `https://api.devs.glidercheck.com/v1/flight?user_id_in=${userId}&limit=${PAGE_SIZE}&skip=${skip}`,
+      `https://api.weglide.org/v1/flight?user_id_in=${userId}&limit=${PAGE_SIZE}&skip=${skip}`,
     );
 
     flights.push(...json);

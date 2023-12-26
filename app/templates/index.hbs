@@ -12,7 +12,7 @@
       & {{flight.copilotName}}
     {{/if}}
 
-    – {{flight.takeoffAirport.name}}
+    – {{or flight.takeoffAirport.name "Unknown"}}
     {{#if (not-eq flight.takeoffAirport.name flight.landingAirport.name)}}
       → {{or flight.landingAirport.name "Outlanding"}}
     {{/if}}
@@ -28,7 +28,11 @@
 
     – <a href="https://skylines.aero/flights/{{flight.id}}">S</a>
     {{#if flight.weglideFlight}}
-      – <a href="https://devs.glidercheck.com/flight/{{flight.weglideFlight.id}}">W</a>
+      – <a href="https://weglide.org/flight/{{flight.weglideFlight.id}}">W</a>
+    {{else}}
+      <button type="button" {{on "click" (perform this.uploadTask flight)}}>
+        → W
+      </button>
     {{/if}}
   </li>
 {{/each}}

@@ -1,5 +1,6 @@
 import Service from '@ember/service';
 import { tracked } from '@glimmer/tracking';
+import AIRCRAFT_MAPPING from '../data/aircraft';
 
 const LS_KEY_SKYLINES = 'skylines';
 const LS_KEY_WEGLIDE = 'weglide';
@@ -44,7 +45,12 @@ export default class StorageService extends Service {
         return takeoffDelta < TIME_THRESHOLD && landingDelta < TIME_THRESHOLD;
       });
 
-      return { ...skylinesFlight, weglideFlight };
+      let skylinesAircraft = AIRCRAFT_MAPPING.find(
+        (aircraft) => aircraft.id === skylinesFlight.model.id,
+      );
+      let weglideAircraftId = skylinesAircraft?.weglideId;
+
+      return { ...skylinesFlight, weglideFlight, weglideAircraftId };
     });
   }
 }
