@@ -4,13 +4,15 @@
       "id": 219,
       "name": "AFH 22",
       "index": 98,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 283
     },
     {
       "id": 118,
       "name": "AFH 24",
       "index": 104,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 480
     },
     {
       "id": 125,
@@ -28,25 +30,29 @@
       "id": 170,
       "name": "Alpin",
       "index": 84,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 214
     },
     {
       "id": 265,
       "name": "Alpin T",
       "index": 84,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 215
     },
     {
       "id": 266,
       "name": "Antares 18S",
       "index": 118,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 75
     },
     {
       "id": 267,
       "name": "Antares 18T",
       "index": 118,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 76
     },
     {
       "id": 19,
@@ -58,13 +64,15 @@
       "id": 268,
       "name": "Apis 2 15m",
       "index": 98,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 137
     },
     {
       "id": 269,
       "name": "Apis 2 M 15m",
       "index": 98,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 138
     },
     {
       "id": 270,
@@ -76,43 +84,50 @@
       "id": 199,
       "name": "Arcus",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 337
     },
     {
       "id": 272,
       "name": "Arcus E",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 338
     },
     {
       "id": 273,
       "name": "Arcus M",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 339
     },
     {
       "id": 274,
       "name": "Arcus T",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 340
     },
     {
       "id": 15,
       "name": "AS 22-2",
       "index": 121,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 405
     },
     {
       "id": 524,
       "name": "AS 33 15m",
       "index": 116,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 497
     },
     {
       "id": 523,
       "name": "AS 33 18m",
       "index": 122,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 494
     },
     {
       "id": 80,
@@ -124,23 +139,26 @@
       "id": 41,
       "name": "ASG 29 18m",
       "index": 119,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 70
     },
     {
       "id": 507,
       "name": "ASG 32 Mi",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 336
     },
     {
       "id": 12,
       "name": "ASH 25",
       "index": 122,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 395
     },
     {
       "id": 8,
-      "name": "ASH 25 \u2265 26m",
+      "name": "ASH 25 ≥ 26m",
       "index": 123,
       "type": "glider"
     },
@@ -148,11 +166,12 @@
       "id": 276,
       "name": "ASH 25 E",
       "index": 122,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 396
     },
     {
       "id": 277,
-      "name": "ASH 25 E \u2265 26m",
+      "name": "ASH 25 E ≥ 26m",
       "index": 123,
       "type": "glider"
     },
@@ -160,17 +179,19 @@
       "id": 9,
       "name": "ASH 25 EB 28",
       "index": 123,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 384
     },
     {
       "id": 278,
       "name": "ASH 25 M",
       "index": 122,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 397
     },
     {
       "id": 279,
-      "name": "ASH 25 M \u2265 26m",
+      "name": "ASH 25 M ≥ 26m",
       "index": 123,
       "type": "glider"
     },
@@ -178,13 +199,15 @@
       "id": 48,
       "name": "ASH 26",
       "index": 117,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 91
     },
     {
       "id": 282,
       "name": "ASH 26 E",
       "index": 117,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 92
     },
     {
       "id": 4,
@@ -196,49 +219,57 @@
       "id": 283,
       "name": "ASH 31 Mi 18m",
       "index": 118,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 74
     },
     {
       "id": 16,
       "name": "ASH 31 Mi 21m",
       "index": 121,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 406
     },
     {
       "id": 236,
       "name": "ASK 13",
       "index": 79,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 305
     },
     {
       "id": 239,
       "name": "ASK 16",
       "index": 76,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 310
     },
     {
       "id": 285,
       "name": "ASK 18",
       "index": 88,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 184
     },
     {
       "id": 224,
       "name": "ASK 21",
       "index": 92,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 292
     },
     {
       "id": 287,
       "name": "ASK 21 Mi",
       "index": 92,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 294
     },
     {
       "id": 154,
       "name": "ASK 23",
       "index": 92,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 175
     },
     {
       "id": 288,
@@ -268,43 +299,50 @@
       "id": 36,
       "name": "ASW 12",
       "index": 110,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 438
     },
     {
       "id": 138,
       "name": "ASW 15",
       "index": 97,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 135
     },
     {
       "id": 28,
       "name": "ASW 17",
       "index": 115,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 426
     },
     {
       "id": 290,
       "name": "ASW 19",
       "index": 100,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 263
     },
     {
       "id": 291,
       "name": "ASW 19 Club",
       "index": 98,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 136
     },
     {
       "id": 85,
       "name": "ASW 20",
       "index": 110,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 34
     },
     {
       "id": 61,
       "name": "ASW 20 16.6m",
       "index": 112,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 119
     },
     {
       "id": 90,
@@ -316,43 +354,50 @@
       "id": 64,
       "name": "ASW 20 Top 16.6m",
       "index": 110,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 122
     },
     {
       "id": 23,
       "name": "ASW 22 22m",
       "index": 119,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 418
     },
     {
       "id": 17,
       "name": "ASW 22 24m",
       "index": 121,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 407
     },
     {
       "id": 10,
       "name": "ASW 22 B",
       "index": 123,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 387
     },
     {
       "id": 296,
       "name": "ASW 22 BE",
       "index": 123,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 388
     },
     {
       "id": 6,
       "name": "ASW 22 BL",
       "index": 124,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 376
     },
     {
       "id": 298,
       "name": "ASW 22 BLE",
       "index": 124,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 377
     },
     {
       "id": 299,
@@ -364,43 +409,50 @@
       "id": 109,
       "name": "ASW 24",
       "index": 107,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 463
     },
     {
       "id": 301,
       "name": "ASW 24 E",
       "index": 107,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 465
     },
     {
       "id": 81,
       "name": "ASW 27",
       "index": 113,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 12
     },
     {
       "id": 104,
       "name": "ASW 28",
       "index": 108,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 447
     },
     {
       "id": 55,
       "name": "ASW 28 18m",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 106
     },
     {
       "id": 303,
       "name": "ASW 28 E",
       "index": 108,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 448
     },
     {
       "id": 304,
       "name": "ASW 28 E 18m",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 107
     },
     {
       "id": 191,
@@ -424,31 +476,36 @@
       "id": 188,
       "name": "Banjo",
       "index": 76,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 239
     },
     {
       "id": 305,
       "name": "Bee",
       "index": 98,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 140
     },
     {
       "id": 247,
       "name": "Bergfalke II",
       "index": 74,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 318
     },
     {
       "id": 240,
       "name": "Bergfalke III",
       "index": 76,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 311
     },
     {
       "id": 232,
       "name": "Bergfalke IV",
       "index": 80,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 301
     },
     {
       "id": 241,
@@ -466,7 +523,8 @@
       "id": 205,
       "name": "Calif A 21",
       "index": 108,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 351
     },
     {
       "id": 307,
@@ -478,7 +536,8 @@
       "id": 153,
       "name": "Carat",
       "index": 93,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 174
     },
     {
       "id": 490,
@@ -496,19 +555,22 @@
       "id": 126,
       "name": "Cirrus B 18.34m",
       "index": 102,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 257
     },
     {
       "id": 310,
       "name": "Cirrus VTC 17.74m",
       "index": 100,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 265
     },
     {
       "id": 311,
       "name": "Club Libelle",
       "index": 96,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 154
     },
     {
       "id": 312,
@@ -532,25 +594,29 @@
       "id": 71,
       "name": "D 36",
       "index": 108,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 129
     },
     {
       "id": 313,
       "name": "D 37",
       "index": 100,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 266
     },
     {
       "id": 139,
       "name": "D 38",
       "index": 97,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 142
     },
     {
       "id": 98,
       "name": "D 40",
       "index": 106,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 54
     },
     {
       "id": 314,
@@ -562,7 +628,8 @@
       "id": 315,
       "name": "DG 100",
       "index": 100,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 267
     },
     {
       "id": 208,
@@ -580,25 +647,29 @@
       "id": 316,
       "name": "DG 100 Club",
       "index": 98,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 143
     },
     {
       "id": 93,
       "name": "DG 200",
       "index": 107,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 48
     },
     {
       "id": 66,
       "name": "DG 200 17m",
       "index": 109,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 124
     },
     {
       "id": 119,
       "name": "DG 300",
       "index": 104,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 481
     },
     {
       "id": 127,
@@ -610,37 +681,43 @@
       "id": 115,
       "name": "DG 300 WL",
       "index": 105,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 476
     },
     {
       "id": 116,
       "name": "DG 303",
       "index": 105,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 477
     },
     {
       "id": 94,
       "name": "DG 400",
       "index": 107,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 49
     },
     {
       "id": 67,
       "name": "DG 400 17m",
       "index": 109,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 125
     },
     {
       "id": 210,
       "name": "DG 500 20m",
       "index": 104,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 361
     },
     {
       "id": 37,
       "name": "DG 500 22m",
       "index": 110,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 439
     },
     {
       "id": 328,
@@ -676,13 +753,15 @@
       "id": 332,
       "name": "DG 505 22m",
       "index": 110,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 441
     },
     {
       "id": 215,
       "name": "DG 505 6 Orion",
       "index": 100,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 367
     },
     {
       "id": 334,
@@ -700,7 +779,8 @@
       "id": 336,
       "name": "DG 505 M Orion 20m",
       "index": 104,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 363
     },
     {
       "id": 337,
@@ -718,19 +798,22 @@
       "id": 86,
       "name": "DG 600",
       "index": 110,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 35
     },
     {
       "id": 59,
       "name": "DG 600 17m",
       "index": 113,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 114
     },
     {
       "id": 52,
       "name": "DG 600 18m",
       "index": 116,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 100
     },
     {
       "id": 341,
@@ -802,19 +885,22 @@
       "id": 350,
       "name": "Discus 2a",
       "index": 108,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 451
     },
     {
       "id": 351,
       "name": "Discus 2c 15m",
       "index": 108,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 454
     },
     {
       "id": 56,
       "name": "Discus 2c 18m",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 108
     },
     {
       "id": 522,
@@ -826,91 +912,106 @@
       "id": 353,
       "name": "Discus 2cT 15m",
       "index": 108,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 456
     },
     {
       "id": 354,
       "name": "Discus 2cT 18m",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 110
     },
     {
       "id": 355,
       "name": "Discus 2T",
       "index": 108,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 450
     },
     {
       "id": 356,
       "name": "Discus bM",
       "index": 107,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 469
     },
     {
       "id": 357,
       "name": "Discus bT",
       "index": 107,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 470
     },
     {
       "id": 182,
       "name": "Duo Banjo",
       "index": 80,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 231
     },
     {
       "id": 203,
       "name": "Duo Discus",
       "index": 110,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 348
     },
     {
       "id": 359,
       "name": "Duo Discus T",
       "index": 110,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 349
     },
     {
       "id": 360,
       "name": "Duo Discus X",
       "index": 110,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 510
     },
     {
       "id": 201,
       "name": "Duo Discus XL",
       "index": 111,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 342
     },
     {
       "id": 361,
       "name": "Duo Discus XLT",
       "index": 110,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 343
     },
     {
       "id": 519,
       "name": "Duo Discus XT",
       "index": 110,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 511
     },
     {
       "id": 7,
       "name": "EB 28",
       "index": 124,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 378
     },
     {
       "id": 3,
       "name": "EB 29",
       "index": 125,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 369
     },
     {
       "id": 362,
       "name": "Elfe 17m",
       "index": 100,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 268
     },
     {
       "id": 146,
@@ -922,25 +1023,29 @@
       "id": 363,
       "name": "Elfe S3",
       "index": 96,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 155
     },
     {
       "id": 364,
       "name": "Elfe S4",
       "index": 96,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 156
     },
     {
       "id": 1,
       "name": "Eta",
       "index": 125,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 373
     },
     {
       "id": 122,
       "name": "Falkon",
       "index": 103,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 253
     },
     {
       "id": 365,
@@ -952,31 +1057,36 @@
       "id": 155,
       "name": "fs 25",
       "index": 92,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 179
     },
     {
       "id": 216,
       "name": "fs 31",
       "index": 99,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 282
     },
     {
       "id": 92,
       "name": "fs 32",
       "index": 108,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 47
     },
     {
       "id": 204,
       "name": "fs 33",
       "index": 109,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 350
     },
     {
       "id": 158,
       "name": "G 102 Club Astir",
       "index": 91,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 180
     },
     {
       "id": 225,
@@ -1000,61 +1110,68 @@
       "id": 254,
       "name": "G 109",
       "index": 68,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 325
     },
     {
       "id": 369,
       "name": "Geier",
       "index": 88,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 185
     },
     {
       "id": 111,
       "name": "Genesis",
       "index": 107,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 471
     },
     {
       "id": 87,
-      "name": "Glasfl\u00fcgel 304",
+      "name": "Glasflügel 304",
       "index": 110,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 37
     },
     {
       "id": 62,
-      "name": "Glasfl\u00fcgel 304 17m",
+      "name": "Glasflügel 304 17m",
       "index": 112,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 120
     },
     {
       "id": 120,
-      "name": "Glasfl\u00fcgel 304 C",
+      "name": "Glasflügel 304 C",
       "index": 104,
       "type": "glider"
     },
     {
       "id": 372,
-      "name": "Glasfl\u00fcgel 304 CZ",
+      "name": "Glasflügel 304 CZ",
       "index": 110,
       "type": "glider"
     },
     {
       "id": 63,
-      "name": "Glasfl\u00fcgel 304 CZ 17.4 m",
+      "name": "Glasflügel 304 CZ 17.4 m",
       "index": 112,
       "type": "glider"
     },
     {
       "id": 29,
-      "name": "Glasfl\u00fcgel 604",
+      "name": "Glasflügel 604",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 427
     },
     {
       "id": 25,
-      "name": "Glasfl\u00fcgel 604 24m",
+      "name": "Glasflügel 604 24m",
       "index": 118,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 423
     },
     {
       "id": 375,
@@ -1066,7 +1183,8 @@
       "id": 197,
       "name": "Grunau Baby",
       "index": 54,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 250
     },
     {
       "id": 376,
@@ -1078,7 +1196,8 @@
       "id": 171,
       "name": "H 30",
       "index": 84,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 216
     },
     {
       "id": 102,
@@ -1090,7 +1209,8 @@
       "id": 377,
       "name": "Hornet",
       "index": 100,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 269
     },
     {
       "id": 263,
@@ -1102,7 +1222,8 @@
       "id": 129,
       "name": "Hornet WL",
       "index": 101,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 261
     },
     {
       "id": 378,
@@ -1114,13 +1235,15 @@
       "id": 231,
       "name": "IS 28 B2",
       "index": 84,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 299
     },
     {
       "id": 379,
       "name": "IS 29 D",
       "index": 96,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 158
     },
     {
       "id": 34,
@@ -1144,7 +1267,8 @@
       "id": 213,
       "name": "Janus 18.2m",
       "index": 102,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 364
     },
     {
       "id": 206,
@@ -1204,7 +1328,8 @@
       "id": 198,
       "name": "Ka 1",
       "index": 54,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 251
     },
     {
       "id": 168,
@@ -1216,7 +1341,8 @@
       "id": 243,
       "name": "Ka 2",
       "index": 76,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 314
     },
     {
       "id": 390,
@@ -1228,7 +1354,8 @@
       "id": 391,
       "name": "Ka 3",
       "index": 54,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 252
     },
     {
       "id": 392,
@@ -1240,13 +1367,15 @@
       "id": 177,
       "name": "Ka 6",
       "index": 82,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 224
     },
     {
       "id": 167,
       "name": "Ka 6 E",
       "index": 85,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 211
     },
     {
       "id": 393,
@@ -1270,25 +1399,29 @@
       "id": 65,
       "name": "Kestrel 17m",
       "index": 110,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 123
     },
     {
       "id": 35,
       "name": "Kestrel 19m",
       "index": 112,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 437
     },
     {
       "id": 30,
       "name": "Kestrel 22m",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 428
     },
     {
       "id": 156,
       "name": "Kiwi",
       "index": 92,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 177
     },
     {
       "id": 244,
@@ -1396,19 +1529,22 @@
       "id": 403,
       "name": "LS 1-0",
       "index": 98,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 145
     },
     {
       "id": 77,
       "name": "LS 10 15m",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 29
     },
     {
       "id": 45,
       "name": "LS 10 18m",
       "index": 118,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 85
     },
     {
       "id": 404,
@@ -1420,7 +1556,8 @@
       "id": 200,
       "name": "LS 11",
       "index": 111,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 344
     },
     {
       "id": 399,
@@ -1450,25 +1587,29 @@
       "id": 103,
       "name": "LS 2",
       "index": 100,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 60
     },
     {
       "id": 95,
       "name": "LS 3",
       "index": 107,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 50
     },
     {
       "id": 68,
       "name": "LS 3 17m",
       "index": 109,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 126
     },
     {
       "id": 406,
       "name": "LS 3a",
       "index": 107,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 51
     },
     {
       "id": 123,
@@ -1480,25 +1621,29 @@
       "id": 121,
       "name": "LS 4",
       "index": 104,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 483
     },
     {
       "id": 117,
       "name": "LS 4 WL",
       "index": 105,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 478
     },
     {
       "id": 26,
       "name": "LS 5",
       "index": 118,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 424
     },
     {
       "id": 84,
       "name": "LS 6",
       "index": 111,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 32
     },
     {
       "id": 53,
@@ -1510,79 +1655,92 @@
       "id": 408,
       "name": "LS 6 17.5m",
       "index": 116,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 102
     },
     {
       "id": 50,
       "name": "LS 6 18m",
       "index": 117,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 98
     },
     {
       "id": 113,
       "name": "LS 7",
       "index": 106,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 472
     },
     {
       "id": 112,
       "name": "LS 7 WL",
       "index": 107,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 473
     },
     {
       "id": 107,
       "name": "LS 8",
       "index": 108,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 458
     },
     {
       "id": 58,
       "name": "LS 8 18m",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 112
     },
     {
       "id": 410,
       "name": "LS 8T",
       "index": 108,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 460
     },
     {
       "id": 411,
       "name": "LS 8T 18m",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 113
     },
     {
       "id": 51,
       "name": "LS 9",
       "index": 117,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 99
     },
     {
       "id": 186,
       "name": "L-Spatz",
       "index": 78,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 235
     },
     {
       "id": 412,
       "name": "Lunak LF 107",
       "index": 78,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 236
     },
     {
       "id": 413,
       "name": "M-25",
       "index": 86,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 194
     },
     {
       "id": 251,
       "name": "MDM-1 Fox",
       "index": 72,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 322
     },
     {
       "id": 520,
@@ -1600,43 +1758,50 @@
       "id": 190,
       "name": "Minimoa",
       "index": 76,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 241
     },
     {
       "id": 96,
       "name": "Mini Nimbus",
       "index": 107,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 52
     },
     {
       "id": 414,
       "name": "Mistral C",
       "index": 96,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 160
     },
     {
       "id": 97,
       "name": "Mosquito",
       "index": 107,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 53
     },
     {
       "id": 69,
       "name": "Mosquito 17m",
       "index": 109,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 127
     },
     {
       "id": 144,
-      "name": "M\u00fc 22b",
+      "name": "Mü 22b",
       "index": 95,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 164
     },
     {
       "id": 40,
-      "name": "M\u00fc 27",
+      "name": "Mü 27",
       "index": 106,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 446
     },
     {
       "id": 183,
@@ -1648,43 +1813,50 @@
       "id": 32,
       "name": "Nimbus 2",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 430
     },
     {
       "id": 416,
       "name": "Nimbus 2b",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 432
     },
     {
       "id": 417,
       "name": "Nimbus 2c",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 433
     },
     {
       "id": 418,
       "name": "Nimbus 2M",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 431
     },
     {
       "id": 24,
       "name": "Nimbus 3 22.9m",
       "index": 119,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 422
     },
     {
       "id": 18,
       "name": "Nimbus 3 24.5m",
       "index": 121,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 409
     },
     {
       "id": 14,
       "name": "Nimbus 3 25.5m",
       "index": 122,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 402
     },
     {
       "id": 22,
@@ -1708,55 +1880,64 @@
       "id": 425,
       "name": "Nimbus 3M 25.5m",
       "index": 122,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 403
     },
     {
       "id": 426,
       "name": "Nimbus 3T 24.5m",
       "index": 121,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 410
     },
     {
       "id": 427,
       "name": "Nimbus 3T 25.5m",
       "index": 122,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 404
     },
     {
       "id": 5,
       "name": "Nimbus 4",
       "index": 124,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 379
     },
     {
       "id": 11,
       "name": "Nimbus 4D",
       "index": 123,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 391
     },
     {
       "id": 430,
       "name": "Nimbus 4DM",
       "index": 123,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 392
     },
     {
       "id": 431,
       "name": "Nimbus 4DT",
       "index": 123,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 393
     },
     {
       "id": 432,
       "name": "Nimbus 4M",
       "index": 124,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 380
     },
     {
       "id": 433,
       "name": "Nimbus 4T",
       "index": 124,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 381
     },
     {
       "id": 2,
@@ -1768,7 +1949,8 @@
       "id": 504,
       "name": "Olympia Meise",
       "index": 76,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 612
     },
     {
       "id": 502,
@@ -1792,35 +1974,39 @@
       "id": 128,
       "name": "Pegase",
       "index": 102,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 259
     },
     {
       "id": 147,
-      "name": "Ph\u00f6bus A",
+      "name": "Phöbus A",
       "index": 94,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 167
     },
     {
       "id": 140,
-      "name": "Ph\u00f6bus B",
+      "name": "Phöbus B",
       "index": 96,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 161
     },
     {
       "id": 437,
-      "name": "Ph\u00f6bus B 3",
+      "name": "Phöbus B 3",
       "index": 100,
       "type": "glider"
     },
     {
       "id": 438,
-      "name": "Ph\u00f6bus C",
+      "name": "Phöbus C",
       "index": 100,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 273
     },
     {
       "id": 157,
-      "name": "Ph\u00f6nix",
+      "name": "Phönix",
       "index": 92,
       "type": "glider"
     },
@@ -1828,7 +2014,8 @@
       "id": 194,
       "name": "Piccolo",
       "index": 68,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 245
     },
     {
       "id": 439,
@@ -1876,43 +2063,49 @@
       "id": 169,
       "name": "PW 5",
       "index": 85,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 213
     },
     {
       "id": 228,
       "name": "PW 6",
       "index": 86,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 297
     },
     {
       "id": 513,
       "name": "Quintus",
       "index": 125,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 394
     },
     {
       "id": 196,
-      "name": "Rh\u00f6nbussard",
+      "name": "Rhönbussard",
       "index": 60,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 249
     },
     {
       "id": 261,
-      "name": "Rh\u00f6nlerche",
+      "name": "Rhönlerche",
       "index": 54,
       "type": "glider"
     },
     {
       "id": 195,
-      "name": "Rh\u00f6nsperber",
+      "name": "Rhönsperber",
       "index": 62,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 248
     },
     {
       "id": 180,
       "name": "Sagitta",
       "index": 82,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 230
     },
     {
       "id": 141,
@@ -1924,25 +2117,29 @@
       "id": 27,
       "name": "SB 10",
       "index": 118,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 425
     },
     {
       "id": 91,
       "name": "SB 11",
       "index": 108,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 46
     },
     {
       "id": 124,
       "name": "SB 12",
       "index": 103,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 260
     },
     {
       "id": 46,
       "name": "SB 14",
       "index": 118,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 87
     },
     {
       "id": 447,
@@ -1972,7 +2169,8 @@
       "id": 450,
       "name": "SB 7",
       "index": 100,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 570
     },
     {
       "id": 258,
@@ -1984,19 +2182,22 @@
       "id": 451,
       "name": "SF 27 A",
       "index": 86,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 199
     },
     {
       "id": 163,
       "name": "SF 27 B",
       "index": 88,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 189
     },
     {
       "id": 452,
       "name": "SF 27 MA",
       "index": 86,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 200
     },
     {
       "id": 238,
@@ -2008,7 +2209,8 @@
       "id": 453,
       "name": "SF 30",
       "index": 86,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 201
     },
     {
       "id": 227,
@@ -2026,7 +2228,8 @@
       "id": 181,
       "name": "SFS 31",
       "index": 82,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 228
     },
     {
       "id": 493,
@@ -2074,7 +2277,8 @@
       "id": 142,
       "name": "SHK",
       "index": 96,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 162
     },
     {
       "id": 454,
@@ -2086,25 +2290,29 @@
       "id": 455,
       "name": "Silence E 75",
       "index": 98,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 287
     },
     {
       "id": 456,
       "name": "Solo L 33",
       "index": 86,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 204
     },
     {
       "id": 193,
       "name": "Spatz 13m",
       "index": 74,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 244
     },
     {
       "id": 262,
       "name": "Specht",
       "index": 54,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 333
     },
     {
       "id": 99,
@@ -2122,13 +2330,15 @@
       "id": 458,
       "name": "Std. Austria",
       "index": 86,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 205
     },
     {
       "id": 164,
       "name": "Std. Austria SH",
       "index": 88,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 191
     },
     {
       "id": 159,
@@ -2140,55 +2350,64 @@
       "id": 133,
       "name": "Std. Cirrus",
       "index": 99,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 134
     },
     {
       "id": 459,
       "name": "Std. Cirrus 16m",
       "index": 100,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 276
     },
     {
       "id": 136,
       "name": "Std. Cirrus Top",
       "index": 98,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 150
     },
     {
       "id": 460,
       "name": "Std. Cirrus WL",
       "index": 100,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 277
     },
     {
       "id": 137,
       "name": "Std. Libelle",
       "index": 98,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 151
     },
     {
       "id": 74,
       "name": "Std. Libelle 17m",
       "index": 100,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 133
     },
     {
       "id": 512,
       "name": "Stemme S12",
       "index": 112,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 534
     },
     {
       "id": 187,
       "name": "Swift S-1",
       "index": 77,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 237
     },
     {
       "id": 510,
       "name": "SZD-12 Mucha 100",
       "index": null,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 233
     },
     {
       "id": 179,
@@ -2200,7 +2419,8 @@
       "id": 462,
       "name": "SZD-30 Pirat",
       "index": 86,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 202
     },
     {
       "id": 492,
@@ -2230,13 +2450,15 @@
       "id": 230,
       "name": "SZD-50 Puchacz",
       "index": 84,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 300
     },
     {
       "id": 160,
       "name": "SZD-51 Junior",
       "index": 90,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 181
     },
     {
       "id": 511,
@@ -2278,7 +2500,8 @@
       "id": 217,
       "name": "Taurus",
       "index": 99,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 280
     },
     {
       "id": 505,
@@ -2290,13 +2513,15 @@
       "id": 149,
       "name": "TST-10 Atlas",
       "index": 94,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 169
     },
     {
       "id": 464,
       "name": "TST-10 Atlas M",
       "index": 94,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 170
     },
     {
       "id": 223,
@@ -2356,79 +2581,92 @@
       "id": 468,
       "name": "Ventus 2ax",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 16
     },
     {
       "id": 486,
       "name": "Ventus 2c 15m",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 18
     },
     {
       "id": 47,
       "name": "Ventus 2c 18m",
       "index": 118,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 88
     },
     {
       "id": 79,
       "name": "Ventus 2cM 15m",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 19
     },
     {
       "id": 471,
       "name": "Ventus 2cM 18m",
       "index": 118,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 89
     },
     {
       "id": 472,
       "name": "Ventus 2cT 15m",
       "index": 114,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 20
     },
     {
       "id": 473,
       "name": "Ventus 2cT 18m",
       "index": 118,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 90
     },
     {
       "id": 43,
       "name": "Ventus 2cxa 18m",
       "index": 119,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 582
     },
     {
       "id": 516,
       "name": "Ventus 3 15m",
       "index": 116,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 5
     },
     {
       "id": 517,
       "name": "Ventus 3 18m",
       "index": 121,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 66
     },
     {
       "id": 89,
       "name": "Ventus b 15m",
       "index": 110,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 41
     },
     {
       "id": 475,
       "name": "Ventus bT 15m",
       "index": 110,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 42
     },
     {
       "id": 476,
       "name": "Ventus bT 16.6m",
       "index": 113,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 118
     },
     {
       "id": 477,
@@ -2440,31 +2678,36 @@
       "id": 478,
       "name": "Ventus cM 15m",
       "index": 110,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 43
     },
     {
       "id": 479,
       "name": "Ventus cM 17.6m",
       "index": 115,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 104
     },
     {
       "id": 480,
       "name": "Ventus cT 17.6m",
       "index": 115,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 105
     },
     {
       "id": 143,
       "name": "VSO-10",
       "index": 96,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 163
     },
     {
       "id": 150,
       "name": "VSO-10 C",
       "index": 94,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 171
     },
     {
       "id": 481,
@@ -2476,25 +2719,29 @@
       "id": 482,
       "name": "VT-16 Orlic",
       "index": 86,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 206
     },
     {
       "id": 185,
       "name": "Weihe 50",
       "index": 80,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 234
     },
     {
       "id": 166,
       "name": "Zugvogel I",
       "index": 86,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 208
     },
     {
       "id": 484,
       "name": "Zugvogel II",
       "index": 86,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 209
     },
     {
       "id": 165,
@@ -2506,25 +2753,29 @@
       "id": 161,
       "name": "Zugvogel IIIb",
       "index": 90,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 183
     },
     {
       "id": 485,
       "name": "Zugvogel IV",
       "index": 86,
-      "type": "glider"
+      "type": "glider",
+      "weglideId": 210
     },
     {
       "id": 176,
       "name": "ASK 14",
       "index": 82,
-      "type": "motorglider"
+      "type": "motorglider",
+      "weglideId": 223
     },
     {
       "id": 253,
       "name": "Dimona",
       "index": 68,
-      "type": "motorglider"
+      "type": "motorglider",
+      "weglideId": 324
     },
     {
       "id": 250,
@@ -2548,19 +2799,22 @@
       "id": 242,
       "name": "IS 28 M",
       "index": 76,
-      "type": "motorglider"
+      "type": "motorglider",
+      "weglideId": 313
     },
     {
       "id": 178,
       "name": "Lambada UFM-13",
       "index": 82,
-      "type": "motorglider"
+      "type": "motorglider",
+      "weglideId": 227
     },
     {
       "id": 172,
       "name": "Lambada UFM-15",
       "index": 84,
-      "type": "motorglider"
+      "type": "motorglider",
+      "weglideId": 217
     },
     {
       "id": 445,
@@ -2572,7 +2826,8 @@
       "id": 192,
       "name": "RF 4",
       "index": 74,
-      "type": "motorglider"
+      "type": "motorglider",
+      "weglideId": 243
     },
     {
       "id": 248,
@@ -2584,37 +2839,43 @@
       "id": 237,
       "name": "RF 5 B",
       "index": 78,
-      "type": "motorglider"
+      "type": "motorglider",
+      "weglideId": 572
     },
     {
       "id": 257,
       "name": "Samburo AVo68-R",
       "index": 67,
-      "type": "motorglider"
+      "type": "motorglider",
+      "weglideId": 330
     },
     {
       "id": 260,
       "name": "SF 25B Falke",
       "index": 65,
-      "type": "motorglider"
+      "type": "motorglider",
+      "weglideId": 331
     },
     {
       "id": 259,
       "name": "SF 25C-S Falke 76",
       "index": 67,
-      "type": "motorglider"
+      "type": "motorglider",
+      "weglideId": 329
     },
     {
       "id": 249,
       "name": "SF 25 E",
       "index": 74,
-      "type": "motorglider"
+      "type": "motorglider",
+      "weglideId": 320
     },
     {
       "id": 175,
       "name": "SF 26",
       "index": 83,
-      "type": "motorglider"
+      "type": "motorglider",
+      "weglideId": 222
     },
     {
       "id": 38,
@@ -2650,19 +2911,22 @@
       "id": 151,
       "name": "Apis WR",
       "index": 93,
-      "type": "ul"
+      "type": "ul",
+      "weglideId": 172
     },
     {
       "id": 444,
       "name": "Pipistrel Sinus",
       "index": 78,
-      "type": "ul"
+      "type": "ul",
+      "weglideId": 306
     },
     {
       "id": 148,
       "name": "Silent 2",
       "index": 94,
-      "type": "ul"
+      "type": "ul",
+      "weglideId": 168
     },
     {
       "id": 173,
