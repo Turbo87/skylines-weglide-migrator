@@ -3,7 +3,7 @@
 <form {{on "submit" (perform this.onSubmitTask)}}>
   <label style="display: block">
     User ID:
-    <input type="text" name="userId" pattern="\d+" disabled={{this.importTask.isRunning}} value={{this.storage.userId}} autocomplete="off" {{on "input" (perform this.onInputTask)}} />
+    <input type="text" name="userId" pattern="\d+" disabled={{this.importTask.isRunning}} value={{this.storage.weglide.userId}} autocomplete="off" {{on "input" (perform this.onInputTask)}} />
   </label>
   <label style="display: block">
     Name:
@@ -20,6 +20,6 @@
   {{/if}}
 </form>
 
-{{#if this.storage.flights}}
-  {{this.storage.flights.length}} flights loaded
+{{#if this.storage.weglide.flights}}
+  {{this.storage.weglide.flights.length}} flights loaded
 {{/if}}
