@@ -6,6 +6,10 @@
     <input type="text" name="userId" pattern="\d+" disabled={{this.importTask.isRunning}} value={{this.storage.weglide.userId}} autocomplete="off" {{on "input" (perform this.onInputTask)}} />
   </label>
   <label style="display: block">
+    Birthday:
+    <input type="date" name="dateOfBirth" disabled={{this.importTask.isRunning}} value={{this.dateOfBirth}} {{on "change" this.setDateOfBirth}} />
+  </label>
+  <label style="display: block">
     Name:
     <input type="text" disabled value={{this.getUserDetailsTask.last.value.name}} />
   </label>

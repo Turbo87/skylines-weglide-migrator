@@ -16,7 +16,7 @@ export default class SkylinesController extends Controller {
 
     let formData = new FormData();
     formData.append('user_id', this.storage.weglide.userId);
-    formData.append('date_of_birth', '1970-01-01');
+    formData.append('date_of_birth', this.storage.weglide.dateOfBirth);
     formData.append('aircraft_id', flight.weglideAircraftId);
     formData.append('file', file);
 
@@ -61,6 +61,7 @@ export default class SkylinesController extends Controller {
 
     this.storage.setWeglide({
       userId: this.storage.weglide.userId,
+      dateOfBirth: this.storage.weglide.dateOfBirth,
       flights: [...flights, ...this.storage.weglide.flights],
     });
   });
